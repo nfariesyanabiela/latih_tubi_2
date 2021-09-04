@@ -1,94 +1,95 @@
 <html>
   <head>
     <title>Tempahan Bas</title>
+    
     <style>
       body {
-        background: url('images/bus.jpg')no-repeat center fixed;
-        background-size: cover;
+      background: url('images/bas.jpg') no-repeat center fixed;
+      background-size: cover;
       }
       .header {
-        margin: auto;
-        padding: 20px;
-        text-align: center;
-        color: rgb(196,139,139);
-        font-family: "open sans","Helvetica neve","Helvetica,Arial. sans-serif";
-        text-shadow: 0 0 5px #FF0000,0,0 5px #0000FF;
+      margin: auto;
+      padding: 20px;
+      text-align: center;
+      color: blanchedalmond;
+      font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+      text-shadow: 0 0 5px #FF0000, 0 0 5px #0000FF;
       }
-      .nama{
-        font-size: 15mm;
+      .nama {
+      font-size: 15mm;
       }
-      .alamat{
-        font-size: 5mm;
+      .alamat {
+      font-size: 5mm;
       }
-      .menu ul{
-        list-style-type: none;
-        background-color: whitesmoke;
-        opacity: 0.5;
-        overflow: hidden;
-        padding: 0;
-        margin: 0;
+      .menu ul {
+      list-style-type: none;
+      background-color: whitesmoke;
+      opacity: 0.5;
+      overflow: hidden;
+      padding: 0;
+      margin: 0;
       }
-      .menu li{
-        float: left;
+      .menu li {
+      float: left;
       }
-      .a{
-        text-decoration: none;
-        display: block;
-        color: black;
-        padding: 20px;
+      a {
+      text-decoration: none;
+      display: block;
+      color: black;
+      padding: 20px;
       }
-      .a:hover{
-        color: black;
-        font-weight: bold;
-        background-color: rgb(227.176,125);
+      a:hover {
+      color: black;
+      font-weight: bold;
+      background-color: cornsilk;
       }
-      .kandungan{
-        margin: auto;
-        text-align: center;
-        background-color: whitesmoke;
-        width: 70%;
-        border-radius: 50px 0 50px 0;
-        opacity: 0.8;
-        padding-bottom: 10px;
+      .kandungan {
+      margin: auto;
+      text-align: center;
+      background-color: whitesmoke;
+      width: 70%;
+      border-radius: 50px 0 50px 0;
+      opacity: 0.8;   
+      padding-bottom: 10px;
       }
-      .table{
-        width: 70%;
-        text-align: center;
-        margin: auto;
-        margin-bottom: 10px;
-        border: 2px solid black;
+      .table {
+      width: 70%;
+      text-align: center;
+      margin: auto;
+      margin-bottom: 10px;
+      border: 2px solid black;
       }
-      th{
-        text-align: center;
-        border-stye: solid;
-        border-width: 1px;
+      th {
+      text-align: center;
+      border-style: solid;
+      border-width: 1px;
       }
-      td{
-        text-align: center;
-        border-style: solid;
-        border-width: 1px;
+      td {
+      text-align: center;
+      border-style: solid;
+      border-width: 1px;
       }
-      .kaki{
-        text-align: center;
-        opacity: 0.7;
-        background-color: burlywood;
-        padding-top: 10px;
-        padding-bottom: 10px;
-        margin-top: 20px;
+      .kaki {
+      text-align: center;
+      opacity: 0.7; 
+      background-color: burlywood;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      margin-top: 20px;
       }
     </style>
   </head>
-  
+
   <body>
-    
-    <!--header-->
+
+    <!--Header-->
     <div class="header">
-      <font class="nama"> Sinar Transportation</font>
+      <font class="nama">Sinar Transportation</font>
       <br>
-      <font class="alamat">3481 Jalan Saujana,Putrajaya</font>
+      <font class="alamat">3481 JALAN SAUJANA, PUTRAJAYA</font>
     </div>
-    
-    <!--menu-->
+
+    <!--Menu-->
     <div class="menu">
       <ul>
         <li><a href="index.html">Home</a></li>
@@ -97,75 +98,72 @@
         <li><a href="tentang.html">Tentang Kami</a></li>
       </ul>
     </div>
-    
-    <!--content-->
+
+    <!--Content-->
     <div class="kandungan">
-      <h1>index</h1>
+      <h1>Index</h1>
       <form action>
         <input type="text">
-        <input type="submit" value="search">
+        <input type="submit" value="Search">
         <input type="reset">
       </form>
-      
+
       <table class="table">
-        <tr>
-          <th>Bil</th>
-          <th>Dari</th>
-          <th>Destinasi</th>
-          <th>Waktu Bertolak</th>
-          <th>Waktu Tiba</th>
-          <th>Kapasiti</th>
-        </tr>
-        <tr>
-          <td>1</td>
-          <td>KL</td>
-          <td>JB</td>
-          <td>08:00 AM</td>
-          <td>11:00 AM</td>
-          <td>35/40</td>
-        </tr>
-        <tr>
-          <td>2</td>
-          <td>JB</td>
-          <td>KL</td>
-          <td>02:00 PM</td>
-          <td>07:00 PM</td>
-          <td>08/40</td>
-        </tr>
-        <tr>
-          <td>3</td>
-          <td>JB</td>
-          <td>MLK</td>
-          <td>08:00 PM</td>
-          <td>10:00</td>
-          <td>15/40</td>
-        </tr>
-        <tr>
-          <td>4</td>
-          <td>KL</td>
-          <td>SRWK</td>
-          <td>08:00 AM</td>
-          <td>11:00 PM</td>
-          <td>01/40</td>
-        </tr>
-        <tr>
-          <td>5</td>
-          <td>JB</td>
-          <td>PHG</td>
-          <td>11:00 AM</td>
-          <td>05:00 PM</td>
-          <td>40/40</td>
-        </tr>
+          <tr>
+            <th>Bil</th>
+            <th>Dari</th>
+            <th>Destinasi</th>
+            <th>Waktu Bertolak</th>
+            <th>Waktu Tiba</th>
+            <th>Kapasiti</th>
+          </tr>
+          <tr>
+            <td>1</td>
+            <td>KL</td>
+            <td>JB</td>
+            <td>08:00 AM</td>
+            <td>11:00 AM</td>
+            <td>35/40</td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>JB</td>
+            <td>KL</td>
+            <td>02:00 PM</td>
+            <td>07:00 PM</td>
+            <td>08/40</td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>JB</td>
+            <td>MLK</td>
+            <td>08:00 PM</td>
+            <td>10:00 PM</td>
+            <td>15/20</td>
+          </tr>
+          <tr>
+            <td>4</td>
+            <td>KL</td>
+            <td>SRWK</td>
+            <td>08:00 AM</td>
+            <td>11:00 PM</td>
+            <td>01/40</td>
+          </tr>
+          <tr>
+            <td>5</td>
+            <td>JB</td>
+            <td>PHG</td>
+            <td>11:00 AM</td>
+            <td>05:00 PM</td>
+            <td>40/40</td>
+          </tr>
       </table>
     </div>
-    
-    <!--footer-->
-    <div class="kaki">
-      Copyright&copy; Syarikat.ABC,2021
+
+    <!--Footer-->
+     <div class="kaki">
+       Copyright &copy; Syarikat ABC,2021
     </div>
     
   </body>
 </html>
-        
-  
-  
